@@ -1,0 +1,210 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>freeCodeCamp Survey Form</title>
+    <!-- Other meta tags, links to stylesheets, or scripts go here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+ <!-- form -->
+<form id="survey-form">
+
+   <!-- background inputs -->
+   <div>
+    <label for="name" id="name-label">Name:</label>
+    <br>
+    <input id="name" name="name" placeholder="Enter your name" type="text" required>
+<br>
+    <label for="email" id="email-label">Email:</label>
+    <br>
+    <input id="email" name="email" placeholder="Enter your email" type="email" required>
+<br>
+    <label for="Age" id="number-label">Age (optional):</label>
+    <br>
+    <input id="number" name="age" placeholder="Age" type="number" min="0" max="99" required>
+</div>
+
+<br>
+    <!-- experience dropdown -->
+    <div>
+    <label for="dropdown">Which option best describes your current role?:</label>
+        <select id="role" name="current-role">
+            <option value="student">Student</option>
+            <option value="full time job">Full Time Job</option>
+            <option value="full time learner" >Full Time Learner</option>
+            <option value="Prefer not to say" >Prefer not to say</option>
+            <option value="Other">Other</option>
+        </select>
+</div>
+
+<!-- would you reccomend radio -->
+<br>
+<div>
+  <label id="radio">Would you reccomend freeCodeCamp to a friend?:</label>
+<br>
+        <input type="radio" id="Definitely" name="radio" value="Definitely">
+        <label for="Definitely">Definitely</label>
+        <br>
+        <input type="radio" id="Maybe" name="radio" value="Maybe">
+        <label for="Maybe">Maybe</label>
+        <br>
+        <input type="radio" id="Not sure" name="radio" value="Not sure">
+        <label for="Not sure">Not sure</label>
+</div>
+<!-- favorite feature dropdown -->
+<pre>
+<div>
+  <label for="dropdown" placeholder="Select an option">What is your favorite feature of freeCodeCamp?:</label>
+  </pre>
+        <select id="dropdown" name="options">
+            <option value="challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="full time learner" >Full Time Learner</option>
+            <option value="Community" >Community</option>
+            <option value="Open Source">Open Source</option>
+        </select>
+</div>
+
+<br>
+<br>
+<div>
+  <label for="favorite-feature" placeholder="favorite-feature">What would you like to see improved? (Check all that apply):</label>
+  </pre>
+  <br>
+        <label for="Front-end Projects">
+            <input type="checkbox" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects">
+            Front-end Projects
+            <br>
+        </label>
+<label for="Back-end Projects">
+            <input type="checkbox" id="Back-end Projects" name="Back-end Projects" value="Back-end Projects">
+            Back-end Projects
+            <br>
+        </label>
+<label for="Data Visualization">
+            <input type="checkbox" id="Data Visualization" name="Data Visualization" value="Data Visualization">
+            Data Visualization
+            <br>
+        </label>
+        <label for="Challenges">
+            <input type="checkbox" id="Challenges" name="Challenges" value="Challenges">
+            Challenges
+            <br>
+        </label>
+        <label for="Open Source Community">
+            <input type="checkbox" id="Open Source Community" name="Open Source Community" value="Open Source Community">
+            Open Source Community
+            <br>
+        </label>
+        <label for="Gitter help rooms">
+            <input type="checkbox" id="Gitter help rooms" name="Gitter help rooms" value="Gitter help rooms">
+            Gitter help rooms
+            <br>
+        </label>
+        <label for="Videos">
+            <input type="checkbox" id="Videos" name="Videos" value="Videos">
+            Videos
+            <br>
+        </label>
+        <label for="City Meetups">
+            <input type="checkbox" id="City Meetups" name="City Meetups" value="City Meetups">
+            Front-end Projects
+            <br>
+        </label>
+        <label for="Wiki">
+            <input type="checkbox" id="Wiki" name="Wiki" value="Wiki">
+            Wiki
+        </label>
+<br>
+        </label>
+        <label for="Forum">
+            <input type="checkbox" id="Forum" name="Forum" value="Forum">
+            Forum
+        </label>
+    </div>
+<br>
+        </label>
+
+<h3>Any comments or suggestions?<h3>
+<textarea placeholder="Enter your comments here"></textarea>
+<br>
+<button id="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+<style>
+
+body {
+    background-image: url('image.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+
+
+    #FrontEndProjects {
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+    #gender1 {
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+
+    #name {
+       margin-bottom: 20px;
+       margin-top: 0px;
+    }
+
+    #email {
+       margin-bottom: 20px;
+       margin-top: 0px;
+    }
+
+    #age {
+       margin-bottom: 20px;
+       margin-top: 0px;
+    }
+
+    #role {
+       margin-bottom: 20px;
+       margin-top: 20px;
+    }
+
+    #submit {
+       margin-bottom: 0px;
+       margin-top: 10px;
+       color: white;
+       background-color: lightgreen;
+    }
+
+   #survey-form {
+       padding-bottom: 20px;
+       padding-top: 20px;
+       padding-right: 20px;
+       padding-left: 20px;
+       color: white;
+       background-color: violet;
+       background-opacity: 10;
+    }
+
+    
+</style>
+
+
+
+** end of undefined **
+
